@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="" name="calculator">
+            <input type="text" class="corTexto1"  name="texto1" disabled style="width: 150px;">
+            <br>
+
+            <input type="button" class="corTexto" value="Ac" name="" onclick="location.reload()">
+            <input type="button" class="total"  value="<" name="btndimi" onclick="displaynum(btndimi.value)">
+            <input type="button" class="total"  value="%" name="btnpercen" onclick="displaynum(btnpercen.value)">
+            <input type="button" class="total"  value="/" name="btndivisao" onclick="displaynum(btndivisao.value)">
+            <br>
+
+            <input type="button" class="numcor" value="9" name="btn9" onclick="displaynum(btn9.value)">
+            <input type="button" class="numcor" value="8" name="btn8" onclick="displaynum(btn8.value)">
+            <input type="button" class="numcor" value="7" name="btn7" onclick="displaynum(btn7.value ) ">
+            <input type="button" class="total" value="+" name="btnadicao" onclick="displaynum(btnadicao.value)"><br>
+
+            <input type="button" class="numcor"  value="6" name="btn6" onclick="displaynum(btn6.value)">
+            <input type="button" class="numcor"  value="5" name="btn5" onclick="displaynum(btn5.value)">
+            <input type="button" class="numcor"  value="4" name="btn4" onclick="displaynum(btn4.value)">
+            <input type="button" class="total"  value="-" name="btnsub" onclick="displaynum(sub.value)"><br>
+
+
+            <input type="button" class="numcor"  value="3" name="btn3" onclick="displaynum(btn3.value)">
+            <input type="button" class="numcor"  value="2" name="btn2" onclick="displaynum(btn2.value)">
+            <input type="button" class="numcor"  value="1" name="btn1" onclick="displaynum(btn1.value)">
+            <input type="button" class="total"  value="*" name="btnvezes" onclick="displaynum(btnvezes.value)"><br>
+
+            
+
+            <input type="button" class="point"  value="." name="point" onclick="displaynum(point.value)">
+            <input type="button" class="numcor"  value="0" name="btn0" onclick="displaynum(btn0.value)">
+            <input type="button" class="total"  value="=" name="btnigual" onclick="displaynum(btnigual.value)" style="width: 70px;">
+           
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

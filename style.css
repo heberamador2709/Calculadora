@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+main{
+    display: flex;
+    margin: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+  
+}
+main form{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 170px;
+    height: 200px;
+    padding: 20px;
+
+
+}
+.corTexto1{
+    margin-top: 20px;
+  
+}
+   
+.corTexto{
+   color:red;
+   background-color: black;
+   margin-top: 20px;
+}
+main form .total{
+    width: 40px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+main form .numcor{
+    width: 30px;
+    height: 20px;
+}
+
